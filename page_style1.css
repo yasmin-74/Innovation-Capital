@@ -1,0 +1,59 @@
+aside {
+  position: absolute;
+
+  height: 100%;
+  background-color: #25142d;
+  border: 3px solid rgb(0, 0, 0);
+}
+header {
+  height: 60px;
+  background-color: blue;
+  border: black;
+}
+body {
+  background-image: image;
+
+}
+
+
+p {
+  padding-left: 10px;
+  color: rgb(242, 233, 233);
+  font-size: large;
+}
+il {
+  color: aliceblue;
+}
+article {
+  position: absolute;
+  left: 30%;
+  color: #100216;
+  font-style: italic;
+  font-size: 60px;
+}
+.image {
+  position:static;
+  left: 600px;
+  top: 300px;
+  opacity: .5;
+}
+a {
+ 
+  left: 10px;
+  height: 20px;
+  color: aquamarine;
+  font-size: 40px;
+}
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 10px;
+  background-color: beige;
+}
+picture {
+  size: auto;
+}
+mark {
+  color: black;
+  font-size: 40px;
+}

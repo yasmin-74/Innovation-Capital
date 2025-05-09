@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Apartment</title>
+    <link rel="stylesheet" href="example3.css">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<div class="bigcont">
+        <div class="container">
+
+        <img  src="chalet.jpg" alt="chalet image" width="100px">
+
+        </div>
+
+<div class="big">
+    <div class="contact_info">
+        <img src="cat.jpeg.jpg" alt="profile_photo" width="50px">
+    <pre> Rawan Adel
+ rawanadel351@gmail.com
+ 01013800116
+    </pre>
+    </div>
+
+    <div class="house"  >
+        <pre> This chalet price is 9,153,000LE
+minumum budjet to invest is 750,000LE
+ if you want to invest,just click in the invest icon
+ below and type your desired budget. 
+        </pre>
+    </div>
+    <span class="price" id="price">1,11,000 LE LEFT</span>
+    <div class="invest" >
+        <br>
+        <div class="add"onclick="myFunction()">
+        <i class="fa-solid fa-plus"></i>
+        <span >invest</span>
+        </div>
+        <br><br>
+        <button type="button" >investors</button>
+    </div>
+        <div class="investors">
+            <div class="one">
+              <img src="users.jpg" alt="investor1_profile" width="80px" class="img">
+                <span>Salma <br>820,000 LE </span>
+            </div>
+            <div class="two">
+              <img src="users.jpg" alt="investor1_profile" width="80px" class="img">
+                <span>Rasha<br>3,250,000 LE  </span>
+            </div>
+            <div class="three">
+              <img src="users.jpg" alt="investor1_profile" width="80px" class="img">
+                <span>Mostafa<br>2,160,000 LE </span>
+            </div>
+            <div class="four">
+              <img src="users.jpg" alt="investor1_profile" width="80px" class="img">
+                <span>Menna<br>3,000,000 LE</span>
+            </div>
+            <div class="five">
+              <img src="users.jpg" alt="investor1_profile" width="80px" class="img">
+                <span> Alaa <br>810,000 LE</span>
+            </div>
+
+    </div>
+    </div>
+    </div>
+    <script>
+      
+      let x = 1113000; 
+      let y = 0;
+  
+      function myFunction() {
+          let stock = prompt("How much stock do you want?", ""); 
+          if (stock !== null) { 
+              y = parseInt(stock); 
+          }
+          updatePrice();
+      }
+  
+      function updatePrice() {
+          if (y !== 0) {
+              document.getElementById("price").innerHTML = x - y +" LE LEFT" ; 
+          } 
+      }
+  
+  
+          </script>
+</body>
+   </html>

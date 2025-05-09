@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Apartment</title>
+    <link rel="stylesheet" href="example3.css">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<div class="bigcont">
+<div class="container">
+<span> 
+<img  src="app.jpg" alt="apartment image" width="100px">
+</span>
+</div>
+
+<div class="big">
+    <div class="contact_info">
+        <img src="cat.jpeg.jpg" alt="profile_photo" width="50px">
+    <pre> Rawan Adel
+ rawanadel351@gmail.com
+ 01013800116
+    </pre>
+    </div>
+
+    <div class="house" >
+        <pre>This apartment price is 3,000,000 LE.
+    minimum budget to invest is 100,000 LE.
+    if you want to invest,just click on the invest icon
+    below and type your desired budget.
+        </pre>
+    </div>
+    <span class="price" id="price">1,990,000 LE LEFT</span>
+    <div class="invest">
+        <br>
+        <div class="add" id ="invest" onclick="myFunction()">
+        <i class="fa-solid fa-plus"></i>
+        <span >invest</span>
+        </div>
+        <br><br>
+        <button type="button" >investors</button>
+    </div>
+        <div class="investors">
+            <div class="one">
+                <img src="users.jpg" alt="investor1_profile" width="80px" class="img">
+                <br>
+                <span>Salma <br>120,000 LE </span>
+            </div>
+            <div class="two">
+                <img src="users.jpg" alt="investor2_profile" width="80px" class="img">
+                <br>
+                <span>Rasha<br>250,000 LE  </span>
+            </div>
+            <div class="three">
+                <img src="users.jpg" alt="investor3_profile" width="80px" class="img" >
+                <br>
+                <span>Mostafa<br>160,000 LE </span>
+            </div>
+            <div class="four">
+                <img src="users.jpg" alt="investor4_profile" width="80px" class="img">
+                <br>
+                <span>Menna<br>370,000 LE</span>
+            </div>
+            <div class="five">
+                <img src="users.jpg" alt="investor5_profile" width="80px" class="img">
+                <br>
+                <span>hanan<br>110,000 LE</span>
+            </div>
+        
+    </div>
+    </div>
+    </div>
+    <script>
+      
+    let x = 199000; 
+    let y = 0;
+
+    function myFunction() {
+        let stock = prompt("How much stock do you want?", ""); 
+        if (stock !== null) { 
+            y = parseInt(stock); 
+        }
+        updatePrice();
+    }
+
+    function updatePrice() {
+        if (y !== 0) {
+            document.getElementById("price").innerHTML = x - y +" LE LEFT"; 
+        } 
+    }
+
+
+        </script>
+</body>
+</html>
