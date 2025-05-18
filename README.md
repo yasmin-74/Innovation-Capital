@@ -7,19 +7,20 @@ Innovation Capital is a conceptual front-end prototype of a platform that connec
 
 🔧 Note: This project is front-end only and does not include a functional backend or database.
 
-- Features
-Browse a collection of innovative startup ideas
+Features
+  
+- Browse a collection of innovative startup ideas
 
-Clean, responsive UI layout for all screen sizes
+- Clean, responsive UI layout for all screen sizes
 
-Search and filter through listed projects
-
- Modular components and reusable design elements
+- Search and filter through listed projects
+- Modular components and reusable design elements
  
-- Future Improvements
-Add backend for user authentication and data persistence
+ Future Improvements
+  
+- Add backend for user authentication and data persistence
 
-Implement investment simulation logic
+- Implement investment simulation logic
 
-Include user dashboard and profile features
+- Include user dashboard and profile features
 
